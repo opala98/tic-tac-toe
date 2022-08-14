@@ -1,0 +1,84 @@
+body {
+    background-image: url(img/1.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+}   
+
+form {
+    
+    margin-top: 2%;
+    margin-left: 45%;
+    color: rgb(255, 255, 255);
+    font-family: cursive; 
+    font-size: 17pt;
+}
+
+aside{
+    position: absolute;
+    border: #6007fa00 2px solid;
+    height: 400px;
+    width: 300px;
+    margin-left: 1140px;
+    margin-top: 320px;  
+}
+
+#win{
+    width: 100%;
+}
+
+table {
+    margin-top: 2%;
+    border: 1px solid #800c0400 ; /*COR BONITA:#800c04*/
+    border-radius: 25px;
+    margin: 0 auto;
+}
+
+
+td {
+    width: 150px;
+    height: 150px;
+}
+
+#a1 {
+    border-radius: 5px;
+    border-bottom: 3px solid #6007fa;
+    border-right: 3px solid #6007fa;
+}
+
+#a2 {
+  
+    border-bottom: 3px solid #6007fa;  
+    
+}
+
+#a3 {
+    border-radius: 5px;
+    border-bottom: 3px solid #6007fa;
+    border-left: 3px solid #6007fa;
+}
+
+#a4 {   
+    border-right: 3px solid #6007fa; 
+}
+
+#a8 {
+    border-top: 3px solid #6007fa;
+}
+
+
+#a6 {
+    
+    border-left: 3px solid #6007fa;
+}
+
+#a7 {
+    border-radius: 5px;
+    border-top: 3px solid #6007fa;
+    border-right: 3px solid #6007fa; 
+}
+
+#a9 {
+    border-radius: 5px;
+    border-top: 3px solid #6007fa;
+    border-left: 3px solid #6007fa;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Jogo da velha</title>
+
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+
+<body>
+<main>
+
+    <aside><img id="win" src="img/png.png" alt="lugar do gif"></aside>
+
+
+<article>
+    <form action="#">
+        <label>Jogar contra o computador?</label><br>
+        <label><input type="radio" id="jogo" name="jogo" value="sim"> 
+            SIM</label>
+        <label><input type="radio" id="jogo" name="jogo" value="nao"> 
+            NÃO</label>
+    </form>
+
+    <table>
+        <tr>
+            <td id="a1"><img id="c1" src="img/png.png" alt="fundo transparente" width="150" height="150" onclick="return check(this.id)"></td>
+            <td id="a2"><img id="c2" src="img/png.png" alt="fundo transparente" width="150" height="150" onclick="return check(this.id)"></td>
+            <td id="a3"><img id="c3" src="img/png.png" alt="fundo transparente" width="150" height="150" onclick="return check(this.id)"></td>
+        </tr>
+        <tr>
+            <td id="a4"><img id="c4" src="img/png.png" alt="fundo transparente" width="150" height="150" onclick="return check(this.id)"></td>
+            <td id="a5"><img id="c5" src="img/png.png" alt="fundo transparente" width="150" height="150" onclick="return check(this.id)"></td>
+            <td id="a6"><img id="c6" src="img/png.png" alt="fundo transparente" width="150" height="150" onclick="return check(this.id)"></td>
+        </tr>
+        <tr>
+            <td id="a7"><img id="c7" src="img/png.png" alt="fundo transparente" width="150" height="150" onclick="return check(this.id)"></td>
+            <td id="a8"><img id="c8" src="img/png.png" alt="fundo transparente" width="150" height="150" onclick="return check(this.id)"></td>
+            <td id="a9"><img id="c9" src="img/png.png" alt="fundo transparente" width="150" height="150" onclick="return check(this.id)"></td>
+        </tr>
+    </table>
+</article>
+
+</main>
+    
+</body>
+
+<script src="logica.js"></script>
+
+</html>
